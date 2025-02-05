@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de la Salle de Sport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestion des Membres</h1>
+
+        <!-- Formulaire pour ajouter un membre -->
+        <form id="addMemberForm">
+            <input type="text" id="name" placeholder="Nom" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="phone" placeholder="Téléphone" required>
+            <button type="submit">Ajouter</button>
+        </form>
+
+        <!-- Liste des membres -->
+        <h2>Liste des Membres</h2>
+        <ul id="membersList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
